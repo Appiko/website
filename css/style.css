@@ -175,6 +175,21 @@ input:focus, textarea:focus {
     outline: none;
 }
 
+.form-group {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
 /*------------------------------------------------------------------------------------------*/
 /* 2. Layout Elements */
 /*------------------------------------------------------------------------------------------*/
@@ -189,7 +204,7 @@ section {
 .row {
     max-width: 1245px;
     margin: 0 auto;
-    padding: 75px 0;
+    padding: 330px 0;
     position: relative;
 }
 
@@ -477,7 +492,7 @@ section {
 /* --------- 2.4 Navigation ---------- */
 
 #header {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 #header aside {
@@ -783,8 +798,8 @@ h6 {
 }
 
 #banner-content.row {
-    padding-top: 170px;
-    padding-bottom: 280px;
+    padding-top: 250px;
+    padding-bottom: 300px;
 }
 
 #banner h1 {
@@ -911,6 +926,16 @@ h6 {
 
 .introduction img.featured {
     padding: 55px 0 0 0;
+}
+
+#about img {
+    max-height: 170px;
+    display:block;
+    margin:auto;
+}
+
+.introduction.thanks-padded {
+    padding: 50px;
 }
 
 /* --------- 6.2 Features ---------- */
@@ -2208,7 +2233,7 @@ blockquote {
 
 
     .row {
-        padding: 15px 0 !important;
+        padding: 55px 0 !important;
     }
 
     .col-1, .col-2, .col-5, .col-7, .col-9, .col-11, .col-2-3, .col-3-4, .col-61, .col-38, .row {
