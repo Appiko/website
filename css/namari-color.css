@@ -173,8 +173,9 @@ body {
 #banner h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size:18px;
-    font-weight:300;
+    font-weight:400;
     color:#111;
+    text-shadow: -2px 0 2px white, 0 2px 2px white, 2px 0 2px white, 0 -2px 2px white;
 }
 
 
