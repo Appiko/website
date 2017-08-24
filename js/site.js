@@ -64,9 +64,4 @@ $(window).load(function () { // makes sure the whole site is loaded
 		$(window).enllax();
 	}
 
-	var host = "appiko.org";
-	if ((host == window.location.host) && (window.location.protocol != 'https:')) {
-		window.location = window.location.toString().replace(/^http:/, "https:");
-	}
-
 });
