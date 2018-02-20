@@ -1,0 +1,7 @@
+Gandi notes
+1. domain appiko.org bought through gandi.net
+2. ensure the A record on gandi's settings for this domain point to 192.30.252.153 and 192.30.252.154. Create entries for * and @ names
+3. on github's settings for the website dir, ensure the custom domain is specified as appiko.org
+4. echo appiko.org > CNAME
+
+If all these steps are in place : it shd work. 
