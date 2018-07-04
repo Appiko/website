@@ -368,13 +368,17 @@ section {
 }
 
 #logo img {
-    max-height: 22px;
     vertical-align: middle;
     margin-right: 15px;
 }
 
 #navigation-logo {
     display: none;
+    max-height: 20px;
+}
+
+#banner-logo {
+    max-height: 120px;
 }
 
 .nav-solid #logo #banner-logo {
