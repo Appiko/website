@@ -141,15 +141,15 @@ body {
     color:#111;
 }
 
-/* Logo, if you are using Fonts as Logo and not image
+/* Logo, if you are using Fonts as Logo and not image */
 
 #logo h1 {
-    font-family:;
+    font-family:'Amaranth', sans-serif;
     font-size:;
     font-weight:;
     color:;
 }
-
+/*
 #logo h2 {
     font-family:;
     font-size:;
@@ -163,7 +163,7 @@ body {
 /* Banner Typography */
 
 #banner h1 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Amaranth', sans-serif;
     font-size:62px;
     line-height:65px;
     font-weight:800;
@@ -192,7 +192,7 @@ body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 16px;
     font-weight:300;
-    color:#9c9c9c;
+    color:#3c3c3c;
 }
 
 /* Testimonial */
