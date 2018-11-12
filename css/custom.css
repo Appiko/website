@@ -1,0 +1,15 @@
+#collapsed-store {
+  display: none
+}
+
+@media (max-width: 991px) {
+  .navbar-toggle { background-color: #ffb600 }
+  .navbar-collapse { background: rgba(255,255,255,.92)}
+  #li-store {
+    display: none
+  }
+  #collapsed-store {
+    display: inline;
+    padding-right: 5px;
+  }
+}
